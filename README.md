@@ -1,4 +1,6 @@
-# AngularTutorial
+# Angular 8 Tutorial: How to Create an Angular Web App Quickly
+
+This source code is part of [Angular 8 Tutorial: How to Create an Angular Web App Quickly]().
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 

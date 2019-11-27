@@ -1,0 +1,16 @@
+<h1>English Premier League Teams 2019/2020</h1>
+<mat-grid-list cols="4" rowHeight="400">
+  <mat-grid-tile *ngFor="let team of teams" [routerLink]="['/details/', team.id]">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>{{team.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="{{team.image}}" alt="{{team.name}}">
+        <mat-card-content>
+          <p>
+            {{team.location}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
